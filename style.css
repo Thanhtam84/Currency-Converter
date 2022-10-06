@@ -1,0 +1,779 @@
+body{
+  background-color: #2c4463;
+}
+
+.banner {
+  background-color: #20303f;
+  height: 75px;
+}
+
+#donkey {
+  height: 75px;
+  position: relative;
+  right: 80px;
+}
+
+#title {
+  font-size: 300%;
+  font-weight: bolder;
+  color: #e0e5e8;
+  position: relative;
+  left: 90px;
+  bottom: 60px;
+  max-width: fit-content;
+}
+/* vertical menu */
+  
+  .vertical-menu a {
+    background-color: #20303f;
+    color: black;
+    display: block; 
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #324b80;
+  }
+/*   
+  .vertical-menu a.active {
+    background-color: #04AA6D; 
+  } */
+
+  .vertical-menu {
+    width: 500px;
+    height: 900px;
+    overflow-y: auto;
+  }
+
+/* widgets */
+.pairs{
+  border-radius: 15px;
+  height: 70px;
+}
+
+.currency-pairup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  margin: 4px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.currency-pairdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  margin: 4px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.directionup {
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  width: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 44px;
+  left: 160px;
+  justify-content: center;
+}
+.directiondown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  width: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 44px;
+  left: 160px;
+  justify-content: center;
+}
+
+#up {
+  transform: rotate(270deg);
+  width: 42px;
+  align-items: center;
+  position: relative;
+  top: 9px;
+}
+
+#down {
+  transform: rotate(90deg);
+  width: 42px;
+  align-items: center;
+  position: relative;
+  top: 9px;
+}
+
+#audup {
+  display: none;
+}
+#eurup {
+  display: non;
+}
+#gbpup {
+  display: none;
+}
+#nzdup {
+  display: none;
+}
+#jepup {
+  display: non;
+}
+#jpyup {
+  display: non;
+}
+#qarup {
+  display: none;
+}
+#uahup {
+  display: non;
+}
+#topup {
+  display: non;
+}
+#mroup {
+  display: non;
+}
+#tmtup {
+  display: none;
+}
+#sarup {
+  display: none;
+}
+#sypup {
+  display: non;
+}
+#pabup {
+  display: none;
+}
+#mznup {
+  display: non;
+}
+#audup {
+  display: non;
+}
+#eurdown {
+  display: none;
+}
+#gbpdown {
+  display: non;
+}
+#nzddown {
+  display: non;
+}
+#jepdown {
+  display: none;
+}
+#jpydown {
+  display: none;
+}
+#qardown {
+  display: non;
+}
+#uahdown {
+  display: none;
+}
+#topdown {
+  display: none;
+}
+#mrodown {
+  display: none;
+}
+#tmtdown {
+  display: none;
+}
+#sardown {
+  display: non;
+}
+#sypdown {
+  display: none;
+}
+#pabdown {
+  display: none;
+}
+#mzndown {
+  display: none;
+}
+
+.USDAUDdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDAUDup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDEURdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDEURup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDGBPdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDGBPup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDNZDdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDNZDup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDJEPdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDJEPup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDJPYdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDJPYup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDJPYdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDJPYup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDQARdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDQARup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDUAHdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDUAHup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDTOPdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDTOPup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDMROdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDMROup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDTMTdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDTMTup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDSARdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDSARup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDSYPdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDSYPup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDPABdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDPABup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDMZNdown{
+  background-color: rgb(166, 20, 20);
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+.USDMZNup{
+  background-color: greenyellow;
+  border-radius: 15px;
+  height: 40px;
+  max-width: 240px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  position: relative;
+  left: 200px;
+  bottom: 84px;
+}
+graph {
+  height: 1.5%;
+  width: 1.5%;
+  position: relative;
+  left: 170px;
+  bottom: 146px;
+}
+
+/* main graph */
+#minigraph-container {
+  position: relative;
+  left: 500px;
+  bottom: 900px;
+  margin: 0px;
+  width: 73.75%;
+  height: 900px;
+    background-color: rgb(8, 48, 77);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 99;
+}
+
+input{
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    border-radius: 5px;
+    background-color:rgb(13, 76, 122);
+    color: white;
+    padding: 0px 5px;
+}
+/* currency converter */
+
+
+/* News */
+
+.world-news{
+    width: 80%;
+    margin: 20px;
+}
+
+#news-display{
+    margin-top: 20px;
+    background-color: rgb(13, 76, 122);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.news-entry{
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.news-entry img{
+    flex: 1;
+    width: 40%;
+    height: 100%;
+}
+
+
+.news-entry div{
+    flex: 4;
+    width: 100%;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+h2{
+    color: #EEEEEE;
+    font-size: 24px;
+    flex: 3;
+    width: 70%
+}
+
+a{
+    color: #d7ebff;
+    font-size: 14px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+} */
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    /* background: rgb(200, 206, 13);
+} */
+.wrapper{
+    width: 480px;
+    padding: 36px;
+    border-radius: 4px;
+    background: white;
+}
+.wrapper header{
+    font-size: 40;
+    font-weight: 300;
+    text-align: center;
+}
+.wrapper form{
+    margin: 40px 0 20px 0;
+}
+form :where(input, select, button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+form p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+form input{
+    height: 50px;
+    font-size: 18;
+    padding: 0 15px;
+    border: 1px solid #999;
+}
+form input :focus{
+    padding: 0 14 px;
+    border: 3px solid #675AFE;
+}
+form .drop-list{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}    
+.drop-list .select-box{
+    display: flex;
+    height: 45px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.select-box select{
+    display: flex;
+    width: auto;
+    font-size: 16px;
+    margin: 0 -5px 0 5px;
+}
+.select-box select::-webkit-scrollbar{
+    width: 8px;
+}
+.select-box select::-webkit-scrollbar-track{
+    background: #999;
+}
+.select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #999;
+}
+.select-box img{
+    display: flex;
+    max-width: 30px;
+}
+.drop-list .icon{
+    display: flex;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 30px;
+}
+form .exchange-rate{
+    font-size: 18px;
+    margin: 20px 0 30px;
+}
+form button{
+    height: 50px;
+    width: 405px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    background: rgb(14, 159, 226);
+}
+
+
